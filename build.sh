@@ -3,4 +3,4 @@
 set -xe
 
 # Build Raspberry Pi image
-(cd rpi && ./build.sh)
+(cd targets/rpi && ./build.sh)
